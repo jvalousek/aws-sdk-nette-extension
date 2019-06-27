@@ -1,12 +1,12 @@
 {
-	"name": "jvalousek/aws-sdk-nette-extension",
+	"name": "jvalousek/aws-sdk-nette-s3-ec2-extension",
 	"type": "library",
 	"description": "A Nette extension for the AWS SDK for PHP http://aws.amazon.com/sdkforphp/ (fork from ublaboo/aws-sdk-nette-extension)",
 	"keywords": ["aws", "sdk", "amazon", "php", "nette", "extension", "di"],
 	"homepage": "https://ublaboo.org/aws-sdk-nette-extension",
 	"license": ["MIT"],
 	"support": {
-		"issues": "https://github.com/ublaboo/aws-sdk-nette-extension/issues"
+		"issues": "https://github.com/jvalousek/aws-sdk-nette-extension/issues"
 	},
 	"authors": [
 		{
