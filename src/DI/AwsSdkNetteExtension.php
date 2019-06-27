@@ -45,11 +45,11 @@ class AwsSdkNetteExtension extends Nette\DI\CompilerExtension
 		$builder = $this->getContainerBuilder();
 		$config = $this->config;
 
-		$builder->addDefinition($this->prefix('sdk'))
+		$builder->addDefinition($this->prefix('sdk.s3'))
 			->setClass('Aws\S3\S3Client')
 			->setArguments([$config]);
 
-		$builder->addDefinition($this->prefix('sdk'))
+		$builder->addDefinition($this->prefix('sdk.ec2'))
 			->setClass('Aws\Ec2\Ec2Client')
 			->setArguments([$config]);
 	}
