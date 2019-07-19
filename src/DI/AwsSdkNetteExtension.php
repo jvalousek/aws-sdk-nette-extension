@@ -60,7 +60,7 @@ class AwsSdkNetteExtension extends Nette\DI\CompilerExtension
 	 */
 	protected function _getConfig()
 	{
-		$config = $this->validateConfig($this->defaults, $this->config);
+        $config = $this->getConfigSchema()->merge($this->config, $this->defaults);
 
 		return $config;
 	}
